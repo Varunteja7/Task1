@@ -1,0 +1,127 @@
+*{
+    font-family: "Roboto", sans-serif;;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.outer {
+    height: 100px;
+    background-color: rgb(7, 34, 68);
+    margin: 0 auto;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inner {
+    background-color: white;
+    /* padding: 5px 20px; */
+    border: 2px solid red;
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 30%;
+
+}
+#all{
+    width: 80%;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+select{
+    margin-right: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+select:hover{
+    cursor: pointer;
+}
+
+.box2{
+    text-align: center;
+    margin-left: 160px;
+}
+
+#email{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#btn{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 12px;
+    width: 100%;
+}
+.line1 {
+    border-bottom: 1px solid black;
+    /* margin-top: 12px; */
+    width: 100%;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* flex-direction: row; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 5px; */
+    margin-bottom: 20px;
+    /* display: block; */
+    /* box-shadow: 0px 4px 8px rgba(0,0,0,0.2); */
+}
+.card img {
+    width: auto;
+    height: 100px;
+    margin-right: 20px;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+}
+.card-content {
+    flex: 1;
+    padding: 10px;
+    /* margin: 20px; */
+
+}
+.card-content h3,
+.card-content h5 {
+    margin-bottom: 10px;
+}
+.card-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    background-color: rgb(236,84,40);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+a:hover {
+    background-color: #0056b3;
+}
